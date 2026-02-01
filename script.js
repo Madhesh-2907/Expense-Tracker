@@ -18,6 +18,7 @@ function addExpense() {
         <button onclick="removeExpense(this, ${amount})">X</button>
     `;
 
+    
     document.getElementById("expenseList").appendChild(li);
 
     total += amount;
